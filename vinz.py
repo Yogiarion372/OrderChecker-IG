@@ -13,7 +13,7 @@ print("==============================")
 print("Checking Order ID...")
 print("==============================")
 try:
-    server= ("https://api.iamvinz.com/api/ig-pointer?id=" +order_id)
+    server= ("https://api.vinzz.my.id/api/ig-pointer?id=" +order_id)
     apikey= ("&apikey=iamvinz")
     url= (server + apikey)
     response = request.urlopen(url)
